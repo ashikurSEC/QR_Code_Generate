@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator || Ashikur</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QR Code Generator</h1>
+        <div class="image">
+            <img src="images/no-image.png" id="image" alt="QR Code">
+        </div>
+
+        <div class="form">
+            <input type="text" id="content" placeholder="Enter Your Text Or URL">
+            <button id="btnCreate">Generate QR Code</button>
+            <button id="btnDownload" style="display:none;">Download QR Code</button>
+        </div>
+        <span id="emptyURL" class="addClass">Please given your text or URL?</span>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

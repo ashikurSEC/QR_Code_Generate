@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dcdcdc;
+  }
+  
+  .container {
+    width: 420px;
+    color: #191919;
+    padding: 20px;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: 11px 11px 19px #bebebe, -11px -11px 19px #ffffff;
+  }
+  
+  .container h1 {
+    margin: 0;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+  }
+  
+  .container .image img {
+    width: 90%;
+  }
+  
+  .container .image {
+    box-shadow: 28px 28px 55px #bebebe, -28px -28px 55px #ffffff;
+    margin: 5%;
+    padding: 15%;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+  }
+  
+  .form input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    box-shadow: 
+        15px 15px 35px #bebebe,     
+        -15px -15px 35px #dcd9d9,   
+        inset 5px 5px 10px rgba(0, 0, 0, 0.1), 
+        inset -5px -5px 10px rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+  }
+  
+  .form button {
+    width: 100%;
+    background-color: #5912b6;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  .form button::before {
+    content: "";
+    width: 0;
+    height: 100%; 
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #5912b6 0%, #c70f4c 100%);
+    transition: 0.5s ease;
+    z-index: -1;
+  }
+  
+  .form button:hover::before {
+    width: 100%; 
+  }
+  
+  .form button:hover {
+    opacity: 0.9;
+  }
+
+  /* Javascript ClassList */
+
+  .addClass {
+    display: none;
+    margin-top: 10px;
+    color: #ff1770;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
